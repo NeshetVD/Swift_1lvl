@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D970E09192F109196486141A /* CarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970E89EE7D7B4A9904D8874 /* CarWindow.swift */; };
+		D970E094CBFAA07D87016BA3 /* DoorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970ECF8D7EB3708718BEC04 /* DoorProtocol.swift */; };
+		D970E313470767D9B3DD63F1 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970E5D52FA79A9E8D2FA697 /* Car.swift */; };
+		D970E3A8D5AC569EC9B161A0 /* CarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970E8862528D660D20C30BC /* CarProtocol.swift */; };
+		D970E44AEAF021FF6DE9856F /* WindowProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970E57E9567FB0FADE310B5 /* WindowProtocol.swift */; };
+		D970E4810FD4DCB1605A765D /* CarTank.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970ECF4E71FC1546D15686D /* CarTank.swift */; };
+		D970E5B3690851FF092E54CF /* TankProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970E628679EB581F34CB188 /* TankProtocol.swift */; };
+		D970E65A2E936ACEB2AA9E5E /* SportCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970E81B2B25C83152A804B8 /* SportCar.swift */; };
+		D970E6B900C76FF0FEC05B47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970E87D87611E24D311B817 /* main.swift */; };
+		D970E8D2D58274F63CBD7B51 /* TrunkCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970EE90B33679B6B4AAE75A /* TrunkCar.swift */; };
+		D970E96CC3B2DC6BAF66BD4A /* EngineProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970EE70DC64E46E49CA4FDB /* EngineProtocol.swift */; };
+		D970EA7B561F054837B61DE0 /* TurbainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970E91A15299B82DA17651F /* TurbainProtocol.swift */; };
+		D970EBE9F2F4E459A505FFAD /* CarTurbain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970E6CC7315AA4195E8DA80 /* CarTurbain.swift */; };
+		D970ED52054B713E7D26531F /* CarDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970E7878FF9EBEA354801AA /* CarDoor.swift */; };
+		D970EF284F6B706169568846 /* CarEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970EC6FCB158C79118D63B3 /* CarEngine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D970E220165FFFF848523553 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D970E57E9567FB0FADE310B5 /* WindowProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowProtocol.swift; sourceTree = "<group>"; };
+		D970E5D52FA79A9E8D2FA697 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		D970E628679EB581F34CB188 /* TankProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TankProtocol.swift; sourceTree = "<group>"; };
+		D970E6CC7315AA4195E8DA80 /* CarTurbain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTurbain.swift; sourceTree = "<group>"; };
+		D970E7878FF9EBEA354801AA /* CarDoor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDoor.swift; sourceTree = "<group>"; };
+		D970E81B2B25C83152A804B8 /* SportCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportCar.swift; sourceTree = "<group>"; };
+		D970E82D826D1D48753AEFFE /* 4l_ДуденковВладимир */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4l_ДуденковВладимир"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D970E87D87611E24D311B817 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D970E8862528D660D20C30BC /* CarProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarProtocol.swift; sourceTree = "<group>"; };
+		D970E89EE7D7B4A9904D8874 /* CarWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarWindow.swift; sourceTree = "<group>"; };
+		D970E91A15299B82DA17651F /* TurbainProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurbainProtocol.swift; sourceTree = "<group>"; };
+		D970EC6FCB158C79118D63B3 /* CarEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarEngine.swift; sourceTree = "<group>"; };
+		D970ECF4E71FC1546D15686D /* CarTank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTank.swift; sourceTree = "<group>"; };
+		D970ECF8D7EB3708718BEC04 /* DoorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoorProtocol.swift; sourceTree = "<group>"; };
+		D970EE70DC64E46E49CA4FDB /* EngineProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineProtocol.swift; sourceTree = "<group>"; };
+		D970EE90B33679B6B4AAE75A /* TrunkCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrunkCar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D970ECADB05771ECC39873FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D970E183B009BEF135220B97 /* CarBase */ = {
+			isa = PBXGroup;
+			children = (
+				D970E5D52FA79A9E8D2FA697 /* Car.swift */,
+				D970E8862528D660D20C30BC /* CarProtocol.swift */,
+			);
+			path = CarBase;
+			sourceTree = "<group>";
+		};
+		D970E197A88EB06FE03DE9BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D970E82D826D1D48753AEFFE /* 4l_ДуденковВладимир */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D970E2195792530D78A7FE7E /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				D970EC6FCB158C79118D63B3 /* CarEngine.swift */,
+				D970EE70DC64E46E49CA4FDB /* EngineProtocol.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		D970E29136D64DFCA7147D9F = {
+			isa = PBXGroup;
+			children = (
+				D970E197A88EB06FE03DE9BA /* Products */,
+				D970EE265D0B5935A31C3EE4 /* 4l_ДуденковВладимир */,
+			);
+			sourceTree = "<group>";
+		};
+		D970E4BA54C4590BD4337255 /* Door */ = {
+			isa = PBXGroup;
+			children = (
+				D970ECF8D7EB3708718BEC04 /* DoorProtocol.swift */,
+				D970E7878FF9EBEA354801AA /* CarDoor.swift */,
+			);
+			path = Door;
+			sourceTree = "<group>";
+		};
+		D970E4F28722F2D7B2EB8371 /* Turbain */ = {
+			isa = PBXGroup;
+			children = (
+				D970E91A15299B82DA17651F /* TurbainProtocol.swift */,
+				D970E6CC7315AA4195E8DA80 /* CarTurbain.swift */,
+			);
+			path = Turbain;
+			sourceTree = "<group>";
+		};
+		D970E88F25BDEB9C32708F48 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				D970E89EE7D7B4A9904D8874 /* CarWindow.swift */,
+				D970E57E9567FB0FADE310B5 /* WindowProtocol.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		D970E9282D2275759A423E1B /* CarParts */ = {
+			isa = PBXGroup;
+			children = (
+				D970E4BA54C4590BD4337255 /* Door */,
+				D970E88F25BDEB9C32708F48 /* Window */,
+				D970E2195792530D78A7FE7E /* Engine */,
+				D970EF94CBC05B5D17D2E854 /* Tank */,
+				D970E4F28722F2D7B2EB8371 /* Turbain */,
+			);
+			path = CarParts;
+			sourceTree = "<group>";
+		};
+		D970EE265D0B5935A31C3EE4 /* 4l_ДуденковВладимир */ = {
+			isa = PBXGroup;
+			children = (
+				D970E87D87611E24D311B817 /* main.swift */,
+				D970E9282D2275759A423E1B /* CarParts */,
+				D970E183B009BEF135220B97 /* CarBase */,
+				D970E81B2B25C83152A804B8 /* SportCar.swift */,
+				D970EE90B33679B6B4AAE75A /* TrunkCar.swift */,
+			);
+			path = "4l_ДуденковВладимир";
+			sourceTree = "<group>";
+		};
+		D970EF94CBC05B5D17D2E854 /* Tank */ = {
+			isa = PBXGroup;
+			children = (
+				D970ECF4E71FC1546D15686D /* CarTank.swift */,
+				D970E628679EB581F34CB188 /* TankProtocol.swift */,
+			);
+			path = Tank;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D970E22AEA3A584FCD3F2831 /* 4l_ДуденковВладимир */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D970E213A53F93499346E35B /* Build configuration list for PBXNativeTarget "4l_ДуденковВладимир" */;
+			buildPhases = (
+				D970E4C97F02C862B7C2C755 /* Sources */,
+				D970ECADB05771ECC39873FF /* Frameworks */,
+				D970E220165FFFF848523553 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4l_ДуденковВладимир";
+			productName = "4l_ДуденковВладимир";
+			productReference = D970E82D826D1D48753AEFFE /* 4l_ДуденковВладимир */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D970E6CDC1535ADD4C8B58D6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D970E52C436FBE5F74902F89 /* Build configuration list for PBXProject "4l_ДуденковВладимир" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D970E29136D64DFCA7147D9F;
+			productRefGroup = D970E197A88EB06FE03DE9BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D970E22AEA3A584FCD3F2831 /* 4l_ДуденковВладимир */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D970E4C97F02C862B7C2C755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D970E6B900C76FF0FEC05B47 /* main.swift in Sources */,
+				D970E094CBFAA07D87016BA3 /* DoorProtocol.swift in Sources */,
+				D970ED52054B713E7D26531F /* CarDoor.swift in Sources */,
+				D970EF284F6B706169568846 /* CarEngine.swift in Sources */,
+				D970E96CC3B2DC6BAF66BD4A /* EngineProtocol.swift in Sources */,
+				D970E4810FD4DCB1605A765D /* CarTank.swift in Sources */,
+				D970E5B3690851FF092E54CF /* TankProtocol.swift in Sources */,
+				D970E09192F109196486141A /* CarWindow.swift in Sources */,
+				D970E44AEAF021FF6DE9856F /* WindowProtocol.swift in Sources */,
+				D970E313470767D9B3DD63F1 /* Car.swift in Sources */,
+				D970E3A8D5AC569EC9B161A0 /* CarProtocol.swift in Sources */,
+				D970E65A2E936ACEB2AA9E5E /* SportCar.swift in Sources */,
+				D970E8D2D58274F63CBD7B51 /* TrunkCar.swift in Sources */,
+				D970EA7B561F054837B61DE0 /* TurbainProtocol.swift in Sources */,
+				D970EBE9F2F4E459A505FFAD /* CarTurbain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D970E0627F7017156E3A8EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D970E340DD2016A3977584B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D970E47A8ED4D9B0AA1ADD96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D970E772A6C6B012705FD53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D970E213A53F93499346E35B /* Build configuration list for PBXNativeTarget "4l_ДуденковВладимир" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D970E772A6C6B012705FD53B /* Debug */,
+				D970E0627F7017156E3A8EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D970E52C436FBE5F74902F89 /* Build configuration list for PBXProject "4l_ДуденковВладимир" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D970E340DD2016A3977584B1 /* Debug */,
+				D970E47A8ED4D9B0AA1ADD96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D970E6CDC1535ADD4C8B58D6 /* Project object */;
+}
